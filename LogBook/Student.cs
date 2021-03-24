@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +17,6 @@ namespace LogBook
         public int HomeWorkScore { get; set; }
         public int Crystal { get; set; }
         public string Feedback { get; set; }
-
+        public Image Photo { get; set; }
     }
 }
